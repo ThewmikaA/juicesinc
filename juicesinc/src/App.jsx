@@ -2,6 +2,7 @@ import './App.css'
 
 import Home from './Home';
 import { BrowserRouter,Link, Route, Routes, Navigate } from 'react-router-dom';
+import Order from './order';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path = '/order' element = {<Order/>}/>
         </Routes>
       </BrowserRouter>
     </>

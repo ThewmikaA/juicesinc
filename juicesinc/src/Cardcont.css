@@ -1,23 +1,23 @@
 .cardmaincont{
     position: absolute;
     left: 0;
-    top: 2000px;    
+    top: 1500px;    
     background-color: rgb(245, 245, 245);
-    width: 80%;
+    width: 83.5%;
     height: 600px;
     z-index: 10;
 }
 .CardCont{
     position: relative;
     height: 250px;
-    left: 10%;
+    left: 5%;
 }
 #ContH1{
     position: relative;
-    width: 20%;
+    width: 50%;
     top: 5%;
-    left: 45%;
+    left: 10%;
     color: black;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
 }

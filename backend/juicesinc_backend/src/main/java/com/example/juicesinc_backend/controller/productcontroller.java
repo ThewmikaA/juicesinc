@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/products")
+@CrossOrigin(origins = "http://localhost:5173") // Allow your React app to make requests
 public class productcontroller {
 
     @Autowired

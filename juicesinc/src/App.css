@@ -1,10 +1,6 @@
 body{
-  display: flex;
-  align-items: center;
-  justify-content:  center;
   background-color: whitesmoke;
   color: black;
-  max-width: 2560px;
 }
 
 

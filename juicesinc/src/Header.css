@@ -26,8 +26,9 @@
 .logo_area{
     position: relative;
     display: flex;
+    height: 130px;
     justify-content: space-between;
-    padding: 20px 50px;
+    margin: 20px 50px;
     z-index: 100;
 }
 .main_vid_cont{
@@ -70,18 +71,18 @@
 .display_img {
     height: 100px;
     width: 80px;
-    transition: .8s ease;
+    transition: .5s ease;
 }
 .hide_img{
     height: 0;
     width: 80px;
-    transition: 1s ease;
+    transition: .5s ease;
 }
 .sticky .main_logo {
     opacity: 1; /* Visible when sticky */
 }
 .main_link1_unscrl {
-    margin:10px 1% 5% auto; /* Always on the right */
+    margin:10px 1% 50px auto; /* Always on the right */
     padding: 1% 50px;
     border-radius: 35px;
     background-color: rgba(115, 115, 115, 0.5);
@@ -94,7 +95,7 @@
     color: rgb(255, 255, 255);
 }
 .main_link1_scrl{
-    margin:10px 1% 5% auto; /* Always on the right */
+    margin:10px 1% 50px auto; /* Always on the right */
     padding: 1% 50px;
     border-radius: 35px;
     background-color: rgb(255, 80, 80);
