@@ -1,11 +1,21 @@
- body {
+body{
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  background-color: whitesmoke;
+  color: black;
+  max-width: 2560px;
+}
+
+
+/* body {
   width: 100%;
   max-width: 1900px;
   margin: 0;
   text-align: center;
   background-color: rgb(250, 250, 250);
 }
-/*
+
 .logo {
   height: 6em;
   padding: 1.5em;
