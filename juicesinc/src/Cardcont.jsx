@@ -49,7 +49,6 @@ function CardCont() {
 
   return (
     <div className="cardmaincont">
-      <h1 id='cardcont-name-1'>Fruit Salads and Juices</h1>
       <div className='CardCont'>
         <Carousel responsive={responsive}>
           {items.map((item) => (

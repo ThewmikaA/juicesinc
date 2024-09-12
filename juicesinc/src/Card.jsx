@@ -5,13 +5,11 @@ import { Link } from 'react-router-dom';
 const getImageByCategory = (category) => {
   switch (category) {
     case 'fruit salad':
-      return './fruit_salad.jpg'; // Path to fruit salad image
+      return './fruit_salad.jpg';
     case 'juice':
-      return './fruit_juice.jpg'; // Path to fruit juice image
-    case 'tropical fruit':
-      return './tropical_fruit.jpg'; // Path to tropical fruit image
-    default:
-      return './default_image.jpg'; // Path to default image if category is unknown
+      return './fruit_juice.jpg'; 
+    case 'ice cream':
+      return './ice_cream.jpeg'; 
   }
 };
 
