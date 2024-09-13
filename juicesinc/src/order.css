@@ -4,7 +4,9 @@
   }
   
   .Header {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
   }
   
@@ -55,14 +57,17 @@
   .add_to_cart_button:hover{
     background-color: #63c365;
   }
-  
   .cart_section {
     margin-top: 20px;
     min-height: 200px;
     border: 2px solid black;
     border-radius: 20px;
   }
-  
   .order_h1{
     margin: 0;
+  }
+  
+  #logo_img{
+    margin: 10px;
+    height: 100px;
   }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Order.css'; // Import CSS for styling
+import { Link } from 'react-router-dom';
 
 export default function Order() {
   // State to store the items fetched from MongoDB
@@ -58,7 +59,8 @@ export default function Order() {
   return (
     <div className="order_page">
       <div className="Header">
-        <h1 className="order_h1">Order</h1>
+        <Link to="/"><img id='logo_img' src="./drink.png" alt="logo_img" /></Link>
+
       </div>
       
       {/* Render Sections by Category */}
